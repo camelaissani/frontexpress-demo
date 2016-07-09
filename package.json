@@ -10,6 +10,7 @@
   },
   "author": "Camel Aissani <camel.aissani@gmail.com> (https://nuageprive.fr)",
   "license": "MIT",
+  "repository": "camelaissani/frontexpress-demo",
   "dependencies": {
     "ejs": "^2.4.2",
     "express": "^4.13.4",

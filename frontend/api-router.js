@@ -9,7 +9,7 @@ router.get((req, res, next) => {
     next();
 });
 
-// On content select the corresponding menu
+// On update content select the corresponding menu
 router.get((req, res, next) => {
     menu.selection(req.uri);
     next();
