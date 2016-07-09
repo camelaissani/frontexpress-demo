@@ -54,5 +54,5 @@ app.get('/api/admin', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('Frontend sample app listening on port 3000!');
+  console.log('Frontexpress demo app listening on port 3000!');
 });

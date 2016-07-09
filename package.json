@@ -2,11 +2,10 @@
   "name": "frontexpress-demo",
   "version": "0.1.0",
   "description": "frontexpress demo project",
-  "main": "dist/server.js",
+  "main": "backend/index.js",
   "scripts": {
-    "build": "webpack",
     "dev": "concurrently -k 'webpack --watch' 'babel-watch --exclude frontend backend/index.js' ",
-    "start": "npm run build && node index.js"
+    "start": "webpack; babel-node backend/index.js"
   },
   "author": "Camel Aissani <camel.aissani@gmail.com> (https://nuageprive.fr)",
   "license": "MIT",
@@ -30,6 +29,7 @@
     "frontexpress"
   ],
   "devDependencies": {
+    "babel-cli": "^6.10.1",
     "babel-core": "^6.9.0",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
