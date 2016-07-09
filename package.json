@@ -4,6 +4,7 @@
   "description": "frontexpress demo project",
   "main": "backend/index.js",
   "scripts": {
+    "postinstall": "cd node_modules/frontexpress; npm install; npm run prepublish; cd ../..",
     "dev": "concurrently -k 'webpack --watch' 'babel-watch --exclude frontend backend/index.js' ",
     "start": "webpack; babel-node backend/index.js"
   },

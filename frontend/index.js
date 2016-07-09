@@ -8,7 +8,7 @@ import menu from './menu';
 // Frontend application
 const app = frontexpress();
 
-// React on http 401 (not authorized, need sign in to access)
+// React on http 401 (Unauthorized need to sign in to access)
 app.use((req, res, next)  => {
     if (res.status === 401) {
         window.alert('Your are not authenticated!\n\nPlease sign in.');

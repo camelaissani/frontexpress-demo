@@ -1,9 +1,13 @@
 # frontexpress-demo
 
+Smallest project for starting using [frontexpress](https://github.com/camelaissani/frontexpress) framework.
+
+![image](https://www.nuageprive.fr/images/overview.optimized.gif)
+
 ## Quick Start
 
  Clone the git repository:
- 
+
 ```bash
 $ git clone git@github.com:camelaissani/frontexpress-demo.git
 $ cd frontexpress-demo
@@ -13,15 +17,6 @@ $ cd frontexpress-demo
 
 ```bash
 $ npm install
-```
-
- Because frontexpress is not in npm repository, we must do the prepublish manually
-
-```bash
-$ cd node_modules/frontexpress
-$ npm install
-$ npm run prepublish
-$ cd ../..
 ```
 
  Start the server:
