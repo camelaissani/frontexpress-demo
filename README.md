@@ -46,7 +46,7 @@ app.use(apiRouter);
 app.use(pageRouter);
 ```
 
- It popup a dialog to ask sign in when the HTTP error 401 is received
+ It pops up a dialog to ask sign in when the HTTP error 401 is received
 
 ```js
 // React on http 401 (Unauthorized need to sign in to access)
