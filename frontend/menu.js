@@ -12,7 +12,7 @@ class Menu {
     }
 
     select(routeId) {
-        this.app.httpGet(`/api/${routeId}`);
+        this.app.httpGet({uri: `/api/${routeId}`, history:{title: routeId, uri: `/${routeId}`}});
     }
 
     selection(uri) {
