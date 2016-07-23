@@ -2,7 +2,7 @@
 
 Smallest project for starting using [frontexpress](https://github.com/camelaissani/frontexpress) framework.
 
-![image](https://www.nuageprive.fr/images/overview.optimized.gif)
+![image](https://www.nuageprive.fr/images/overview.optimized1.gif)
 
 ## Quick Start
 
@@ -70,4 +70,4 @@ router.get((req, res, next) => {
 });
 ```
 
-For more look at the sources.
+For more look at the [sources](https://github.com/camelaissani/frontexpress-demo/tree/master/frontend).
